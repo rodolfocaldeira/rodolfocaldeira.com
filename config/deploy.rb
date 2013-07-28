@@ -1,4 +1,4 @@
-set :application, "rodolfocaldeira2"
+set :application, "rodolfocaldeira"
 
 set :user, conf_ssh_user
 set :deploy_to, "#{conf_deploy_to}#{application}"
@@ -22,7 +22,7 @@ set :repository, "."
 
 server conf_server, :app, :web, :db, :primary => true
 set :use_sudo, false
-set :rewrite_base, "/rodolfocaldeira2/"
+set :rewrite_base, "/rodolfocaldeira/"
 
 before "deploy:finalize_update", "copy_to_prod"
 
