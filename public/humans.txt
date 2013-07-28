@@ -1,0 +1,42 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Design & Development: Rodolfo Caldeira
+  Site: rodolfocaldeira.com
+  Twitter: twitter.com/rodolfocaldeira
+  Location: Ireland
+
+/* THANKS */
+  Marlene Vitorino for the feedback twitter.com/msvitorino.
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Textmate :)
+  
+
+                                    
+                               -o/-                       
+                               +oo//-                     
+                              :ooo+//:                    
+                             -ooooo///-                   
+                             /oooooo//:                   
+                            :ooooooo+//-                  
+                           -+oooooooo///-                 
+           -://////////////+oooooooooo++////////////::    
+            :+ooooooooooooooooooooooooooooooooooooo+:::-  
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-   
+                     -:+ooooooooooooooooo+:://////:--     
+                       /ooooooooooooooooo+//////:-        
+                      -ooooooooooooooooooo////-           
+                      /ooooooooo+oooooooooo//:            
+                     :ooooooo+/::/+oooooooo+//-           
+                    -oooooo/::///////+oooooo///-          
+                    /ooo+::://////:---:/+oooo//:          
+                   -o+/::///////:-      -:/+o+//-         
+                   :-:///////:-            -:/://         
+                     -////:-                 --//:        
+                       --                       -:        
