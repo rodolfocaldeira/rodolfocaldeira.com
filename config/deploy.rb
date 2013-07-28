@@ -29,7 +29,6 @@ before "deploy:finalize_update", "copy_to_prod"
 desc "Copies the site to the right place"
 task :copy_to_prod do
     puts "#{current_release}"
-    run "mv #{current_release}/dist/ #{current_release}/public/"
     run "chmod 755 #{current_release}/public/ -R"
 
     htaccess = <<-EOF
