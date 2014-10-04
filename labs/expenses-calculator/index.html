@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app='App'>
+<head>
+    <meta charset=utf-8>
+    <title>Expenses Calculator</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <script>window.angular || document.write('<script src="js/vendor/angular.js">\x3C/script>')</script>
+
+    <script type="text/javascript" src="js/vendor/angular-sanitize.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+
+</head>
+<body ng-controller="ExpensesCalculatorCtrl">
+
+    <div class="container">
+
+        <h1>Expenses Calculator</h1>
+
+        <ul class="expenses">
+            <li class="expense clearfix" ng-repeat='expense in expenses'
+                    ng-click="removeItem($index)">
+                <div ng-bind-html="expense | expenseFilter:$index"></div>
+            </li>
+        </ul>
+
+        <form ng-submit="addItem(item)">
+            <input type="text" ng-model="item" placeholder="15.50 Noodles" autofocus="autofocus"/>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>
+            Built with <a href="http://angularjs.org/">AngularJs</a>,
+            source code available on <a href="https://github.com/rodolfocaldeira/expenses-calculator">GitHub</a>.
+        </p>
+    </footer>
+
+    <script>
+        var _gaq=[['_setAccount','UA-19865012-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+</body>
+</html>
