@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+
+    body,
+    h1, h2, h3 {
+        font-family: sans-serif;
+    }
+
+    .cv {
+        margin: 0;
+        max-width: none;
+        width: auto;
+        border: none;
+    }
+
+    article {
+        margin-top: 0;
+    }
+
+    header {
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .photo {
+            display: none;
+            border: none;
+        }
+    }
+
+    aside {
+        margin-top: 0.35cm;
+        border-left: 1px solid lighten(#000, 90%);
+        color: lighten(#333, 15%);
+        padding-left: 4%;
+        padding-right: 4%;
+
+        ul {
+            li {
+                list-style-type: circle;
+            }
+        }
+
+        a {
+            color: #2a8fbd;
+        }
+
+    }
+
+    footer {
+        display: block;
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 1cm 0.2cm 1.5cm 0.2cm ;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3,
+    li {
+        page-break-after: avoid;
+    }
+
+
+
+}
